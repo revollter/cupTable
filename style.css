@@ -1,0 +1,280 @@
+body{
+    background-color: #404040;
+    font-size: 14px;
+    font-family: Aldrich;
+}
+.mainContainer{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#title{
+    color: #2A95BE;
+}
+
+#addCompetition{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#instruction{
+    text-align: center;
+    color: #2A95BE;
+    font-size: 20px;
+}
+
+.startButton{
+    
+    width: 300px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #303030;
+    color: #2A95BE;
+    font-size: 90px;
+    padding: 5px;
+    text-align: center;
+    border: 2px #2A95BE solid;
+    border-radius: 10px;
+}
+
+.startButton:hover{
+    cursor: pointer;
+    background-color: #1c1c1c;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+
+.name{
+    float: left;
+    min-width: 120px;
+}
+
+div.round > div:nth-child(odd){
+    border: solid 1px darkred;
+}
+
+div.round > div:nth-child(even){
+    border: solid 1px lightgray;
+}
+
+div.round > div:nth-child(odd):hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+
+div.round > div:nth-child(even):hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.cell-none{
+    
+    height: 13px;
+    min-width: 120px;
+    background-color: grey;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: solid 0px black;
+    border-radius: 5px;
+}
+
+.cell-1{
+    height: 13px;
+    min-width: 120px;
+    background-color: grey;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: solid 0px black;
+    border-radius: 5px;
+}
+
+.cell-2{
+    height: 13px;
+    min-width: 120px;
+    background-color: grey;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    border: solid 0px black;
+    border-radius: 5px;
+}
+
+.cell-3{
+    height: 13px;
+    min-width: 120px;
+    background-color: grey;
+    margin-top: 60px;
+    margin-bottom: 105px;
+    margin-left: 15px;
+    border: solid 0px black;
+    border-radius: 5px;
+}
+
+.cell-4{
+    height: 13px;
+    min-width: 120px;
+    background-color: grey;
+    margin-top: 120px;
+    margin-bottom: 225px;
+    margin-left: 15px;
+    border: solid 0px black;
+    border-radius: 5px;
+}
+
+.cell-5{
+    height: 13px;
+    min-width: 120px;
+    background-color: grey;
+    margin-top: 240px;
+    margin-bottom: 465px;
+    margin-left: 15px;
+    border: solid 0px black;
+    border-radius: 5px;
+}
+
+.cell-6{
+    height: 13px;
+    min-width: 120px;
+    background-color: grey;
+    margin-bottom: 945px;
+    margin-top: 480px;
+    margin-left: 15px;
+    border: solid 0px black;
+    border-radius: 5px;
+}
+
+.cell-7{
+    height: 13px;
+    min-width: 120px;
+    background-color: grey;
+    margin-top: 960px;
+    margin-left: 15px;
+    border: solid 0px black;
+    border-radius: 5px;
+}
+
+.round{
+    padding-top: -15px;
+    float: left;
+    text-align: center;
+}
+
+
+.anime-round{
+    float: left;
+}
+
+.input{
+    background-color: #1c1c1c;
+    color: #2A95BE;
+    border: 2px #2A95BE solid;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #1c1c1c;
+    color: #2A95BE;
+    border: 2px #2A95BE solid;
+    border-radius: 5px;
+    display: block;
+    min-width: 130px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.button:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#create{
+    width: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+#cancel{
+    width: 130px;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+
+.controls{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.clear{
+    padding: 0;
+    border: none;
+    background: #303030;
+    color: red;
+    border-radius: 4px;
+    float: left;
+    height:13px;
+    width:15px;
+}
+
+.anime-1{
+    height: 13px;
+    min-width: 120px;
+    background-color: grey;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: solid 0px black;
+    border-radius: 5px;
+}
+
+.anime-2{
+    height: 13px;
+    min-width: 120px;
+    background-color: grey;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    border: solid 0px black;
+    border-radius: 5px;
+}
+
+.anime-3{
+    height: 13px;
+    min-width: 120px;
+    background-color: grey;
+    margin-top: 60px;
+    margin-bottom: 105px;
+    margin-left: 15px;
+    border: solid 0px black;
+    border-radius: 5px;
+}
+
+div.anime-round > div:nth-child(odd){
+    border: solid 1px red;
+}
+
+div.anime-round > div:nth-child(even){
+    border: solid 1px white;
+}
+
+#animation{
+    border: solid 0px black;
+    border-radius: 10px;
+    width:420px;
+    height:150px;
+    margin: auto;
+    padding: 20px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="makeTable.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        
+        <title></title>
+    </head>
+    <body>
+        <div id="main_container" >
+            <div class="controls">
+                <button class="button" id="show" style="display: none;">Show</button>
+                <button class="button" id="randomize" style="display: none;">Randomize again</button>
+                <button class="button" id="cancel" style="display: none;">Hide</button>
+            </div>
+            <div style="clear: both"></div>
+            <div id="addingDiv">
+                <div id="instruction">
+                    <h1>Enter the Names</h1>
+                    <span>
+                        <p>
+                            Enter the names of the players(64max), each in a separate line. Click the create table button.
+                        </p>
+                    </span>
+                </div>
+
+                <div id="addCompetition">
+                    <form action="#" method="post" enctype="multipart/form-data">
+                        <textarea class="input" type="text" cols="80" rows="40" name="players"></textarea> </br>
+                        <input type="submit" id="create" class="button" value="Create Competition" />
+                    </form>   
+                </div>
+            </div>
+            
+            <div id="competition"></div>
+        </div>
+    </body>
+</html>
